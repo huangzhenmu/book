@@ -1,0 +1,12 @@
+server:
+  port: 8000
+#关闭模板缓存
+spring:
+  thymeleaf:
+    cache: false
+logging:
+  config:
+    classpath: logging-config.xml
+#配置属性
+amazon:
+  associateId: habuma-20
